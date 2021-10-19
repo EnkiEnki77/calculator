@@ -14,30 +14,31 @@
             <div id="theme-switch"></div>
         </div>
         <div id="screen">
-            <h1 id="answer">399,981</h1>
+            <div data-previous-operand class="previous-operand" id="previous-operand" ></div>
+            <div data-current-operand class="current-operand" id="current-operand" ></div>
         </div>
         <div id="buttons">
             <div id="numbersAndOperators">
-                <button id="seven" class="num-butts row-1 ">7</button>
-                <button id="eight" class="num-butts row-1 ">8</button>
-                <button id="nine" class="num-butts row-1">9</button>
-                <button id="DEL" class="num-butts row-1">DEL</button>
-                <button id="four" class="num-butts row-2">4</button>
-                <button id="five" class="num-butts row-2">5</button>
-                <button id="six" class="num-butts row-2">6</button>
-                <button id="plus" class="num-butts row-2">+</button>
-                <button id="one" class="num-butts row-3">1</button>
-                <button id="two" class="num-butts row-3">2</button>
-                <button id="three" class="num-butts row-3">3</button>
-                <button id="minus" class="num-butts row-3">-</button>
-                <button id="point" class="num-butts row-4">.</button>
-                <button id="zero" class="num-butts row-4">0</button>
-                <button id="divide" class="num-butts row-4">/</button>
-                <button id="multiply" class="num-butts row-4">*</button>
+                <button data-number id="seven" class="num-butts number row-1 ">7</button>
+                <button data-number id="eight" class="num-butts number row-1 ">8</button>
+                <button data-number id="nine" class="num-butts number row-1">9</button>
+                <button data-delete id="DEL" class="num-butts row-1">DEL</button>
+                <button data-number id="four" class="num-butts number row-2">4</button>
+                <button data-number id="five" class="num-butts number row-2">5</button>
+                <button data-number id="six" class="num-butts number row-2">6</button>
+                <button data-operation id="plus" class="num-butts operand row-2">+</button>
+                <button data-number id="one" class="num-butts number row-3">1</button>
+                <button data-number id="two" class="num-butts number row-3">2</button>
+                <button data-number id="three" class="num-butts number row-3">3</button>
+                <button data-operation id="minus" class="num-butts operand row-3">-</button>
+                <button data-number id="point" class="num-butts number row-4">.</button>
+                <button data-number id="zero" class="num-butts number row-4">0</button>
+                <button data-operation id="divide" class="num-butts operand row-4">/</button>
+                <button data-operation id="multiply" class="num-butts operand row-4">*</button>
             </div>
             <div id="resetAndEquals">
-                <button id="reset" class="res-butts">RESET</button>
-                <button id="equals" class="res-butts">=</button>
+                <button data-all-clear  id="reset" class="res-butts">RESET</button>
+                <button  data-equals  id="equals" class="res-butts">=</button>
             </div>
         </div>
     </div>
